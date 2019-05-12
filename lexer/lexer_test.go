@@ -76,7 +76,7 @@ if (5 < 10) {
 		{token.SEMICOLON, ";"},
 		{token.IF, "if"},
 		{token.LPAREN, "("},
-		{token.INT, "5"},
+		{token.INT, "5"}, //TODO extend this fully
 	}
 	l := New(input)
 	for i, tt := range tests {
