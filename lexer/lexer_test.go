@@ -71,6 +71,12 @@ if (5 < 10) {
 		{token.INT, "5"},
 		{token.LT, "<"},
 		{token.INT, "10"},
+		{token.GT, ">"},
+		{token.INT, "5"},
+		{token.SEMICOLON, ";"},
+		{token.IF, "if"},
+		{token.LPAREN, "("},
+		{token.INT, "5"},
 	}
 	l := New(input)
 	for i, tt := range tests {
